@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
+  <title>ASL Garage</title>
+</head>
+<body class="about-body">
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/Untitled design (1).gif" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+          <li class=""><a href="index.html"> HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="">SERVICES</a></li>
+                 
+              
+          <li><a href="">FAQs</a></li>
+          <li><a href="contactus.html">CONTACT</a></li>
+        </ul>
+      </div>
+      
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+    <h1>Frequently Asked Questions</h1>
+
+  </section>
+
+  <div class="accordion">
+    <div class="icon">
+      <h5>What is AutoMechanica ?</h5>
+    </div>
+    <div class="panel">
+      AutoMechanica is your best friend when it comes to any car services! With efficient pricing, highly skilled experts, the latest equipment and technology and genuine parts, we bring you a range of services designed to keep your car in the best shape.
+    </div>
+  </div>
+
+
+  
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>LSA’s mission is to enable premium quality care for your luxury car service at affordable pricing . 
+      <br> We ensure real-time updates for complete car care needs with a fair and transparent pricing mechanism.</p>
+    <div class="icons">
+      <i class="fa-brands fa-twitter twitter"></i>
+      <i class="fa-brands fa-facebook facebook"></i>
+      <i class="fa-brands fa-instagram instagram"></i>
+      <i class="fa-brands fa-linkedin linkedin"></i>
+    </div>
+
+        
+  
+    </section>
+
+    
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
